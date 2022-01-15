@@ -1,0 +1,83 @@
+/* Outfit Light 300 */
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300&display=swap');
+
+/* Outfit Regular 400 */
+@import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
+
+/* Outfit Semi-bold 600 */
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@600&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    background:hsl(217, 54%, 11%);
+    font-family: 'Outfit',sans-serif;
+}
+
+p{
+    font-size: 18px;
+}
+
+/* Desktop*/
+@media screen and (min-width:993px)
+{
+
+}
+/* Mobile */
+
+@media screen and (max-width:992px)
+{
+
+.container{
+   display:flex;
+   justify-content:center;
+   margin-top: 4em;
+   padding:1.5em;
+}
+article
+{
+    width:375px;
+    border-radius:25px;
+    padding:1.8em;
+    background:hsl(216, 50%, 16%);
+}
+article .equilibrium
+{
+    width:100%;
+    border-radius:10px;
+}
+
+h1
+{
+    color:hsl(0, 0%, 100%);
+    font-weight: 600;
+    margin-top: 1em;
+    line-height: 2.3em;
+}
+
+.equilibrium--promotes
+{
+    /* Temporary */
+    color:#6E8BB2;
+    font-weight:300;
+    line-height:1.5em;
+    margin-bottom:1em;
+}
+
+.description
+{
+    display:flex;
+    justify-content:space-between;
+    margin-bottom: .8em;
+}
+
+.line
+{
+    width:375px;
+    border-bottom: 1px solid #6E8BB2;
+}
+}
+
