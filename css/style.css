@@ -31,15 +31,20 @@ p{
 @media screen and (max-width:992px)
 {
 
+p
+{
+    color:#6E8BB2;
+}
 .container{
    display:flex;
    justify-content:center;
    margin-top: 4em;
    padding:1.5em;
+   
 }
 article
 {
-    width:375px;
+    width:19em;
     border-radius:25px;
     padding:1.8em;
     background:hsl(216, 50%, 16%);
@@ -71,13 +76,57 @@ h1
 {
     display:flex;
     justify-content:space-between;
-    margin-bottom: .8em;
+    margin-bottom: 1em;
 }
 
+.description .money
+{
+ color:hsl(178, 100%, 50%);
+}
+
+ .description .ethereum
+{
+    position: relative;
+    margin-right: .2em;
+    top:.1em;
+}
+
+.description .clock
+{
+    position: relative;
+    margin-right: .2em;
+    top:.1em;
+}
 .line
 {
-    width:375px;
-    border-bottom: 1px solid #6E8BB2;
+    width:19em;
+    border-bottom: 1px solid hsl(215, 32%, 27%);
+}
+
+#user
+{
+    display: flex;
+    margin-top: 1.2em;
+}
+
+#user .avatar
+{
+ height:40px;
+ width: 40px;
+ border-radius: 50%;
+ border: 1px solid hsl(0, 0%, 100%);
+}
+
+#user p
+{
+    position: relative;
+    top:.5em;
+    left:1em;
+}
+
+span
+{
+    color:hsl(0, 0%, 100%);
 }
 }
 
