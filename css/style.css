@@ -21,15 +21,6 @@ p{
     font-size: 18px;
 }
 
-/* Desktop*/
-@media screen and (min-width:993px)
-{
-
-}
-/* Mobile */
-
-@media screen and (max-width:992px)
-{
 
 p
 {
@@ -48,12 +39,27 @@ article
     border-radius:25px;
     padding:1.8em;
     background:hsl(216, 50%, 16%);
+    position: relative;
+    overflow: hidden;
+    
 }
+
+
 article .equilibrium
 {
     width:100%;
     border-radius:10px;
+    position: relative;
 }
+.eye
+{
+    position:absolute;
+    right:10em;
+    top:10em;
+    transition: transform 700ms ease-in;
+}
+
+
 
 h1
 {
@@ -61,7 +67,14 @@ h1
     font-weight: 600;
     margin-top: 1em;
     line-height: 2.3em;
+    cursor: pointer;
 }
+
+h1:hover{
+    color:hsl(178, 100%, 50%);
+}
+
+
 
 .equilibrium--promotes
 {
@@ -127,6 +140,9 @@ h1
 span
 {
     color:hsl(0, 0%, 100%);
-}
+    cursor:pointer;
 }
 
+span:hover{
+    color:hsl(178, 100%, 50%);
+}
