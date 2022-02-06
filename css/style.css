@@ -6,3 +6,139 @@
 
 /* Outfit Semi-bold 600 */
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@600&display=swap');
+
+
+*,::after,::before
+{
+    margin:0;
+    padding:0;
+}
+
+p{
+    font-size:18px;
+}
+
+body
+{
+    font-family:'Outfit',sans-serif;
+    color:white;
+    background-color: hsl(217, 54%, 11%);
+}
+
+.container{
+    width: 80%;
+    display:flex;
+    justify-content:center;
+    margin: 5em auto;
+}
+
+article{
+    width: 375px;
+    background-color:hsl(216, 50%, 16%);
+    padding:1.3em;
+    border-radius: 20px;
+}
+
+.A-box{
+
+    position: relative;
+}
+.A-box .square{
+    
+    width: 100%;
+    border-radius: 20px;
+}
+
+.eye-view{
+    position:absolute;
+    right:43%;
+    top:40%;
+    display:none;
+    opacity: 1 !important;
+}
+.tt{
+    height:375px;
+    border-radius: 20px;
+    width:375px;
+    background-color:hsl(178, 100%, 70%);
+    opacity: .7;
+    position: absolute;
+    z-index: 2;
+    top:0;
+    display:none;
+}
+.square:active + .tt > img{
+    display: block;
+}
+.square:active + .tt{
+    display:block;
+}
+.B-box{
+margin-top:1.5em;
+margin-bottom:2em;
+}
+.B-box h1{
+    font-size: 1.5em;
+    margin-bottom:.8em;
+}
+
+.B-box p {
+color:hsl(215, 51%, 70%);
+opacity: .8;
+width: 100%;
+}
+
+.C-box{
+    display:flex;
+    justify-content:space-between;
+}
+.C-box .ether--money{
+    color: hsl(178, 100%, 50%);
+    position: relative;
+}
+.C-box .clock{
+    position: relative;
+    right:.5em;
+    top:.1em;
+}
+
+.C-box .ether__icon{
+    
+    position: relative;
+    top:.1em;
+    padding-right: .5em;
+}
+
+.C-box .time-left{
+    color:hsl(215, 51%, 70%);
+    opacity: .8;
+}
+
+ .line{
+    border-bottom: 1px solid hsl(215, 51%, 70%);
+    width:99%;
+    margin: 2em auto;
+    opacity: .2;
+}
+
+.D-box{
+    display: flex;
+}
+
+.D-box img{
+    border-radius: 50%;
+    border:1px solid  hsl(0, 0%, 100%);
+    height:30px;
+}
+
+.D-box h2 {
+    color:hsl(215, 51%, 70%);;
+    font-size: 1em;
+    position: relative;
+    left:1em;
+    top:.2em;
+}
+
+span {
+    color:hsl(0, 0%, 100%) !important;
+}
