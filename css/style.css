@@ -80,6 +80,11 @@ margin-bottom:2em;
 .B-box h1{
     font-size: 1.5em;
     margin-bottom:.8em;
+    cursor: pointer;
+}
+
+.B-box h1:hover{
+    color:hsl(178, 100%, 50%);
 }
 
 .B-box p {
@@ -141,4 +146,9 @@ width: 100%;
 
 span {
     color:hsl(0, 0%, 100%) !important;
+    cursor: pointer;
+}
+
+span:hover{
+    color:hsl(178, 100%, 50%) !important;
 }
